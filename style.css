@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  background-color: #F3EDDD;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header,footer{
+  height: 50px;
+  clear: both;
+  background-color: #303040;
+}
+
+h1, h2, ul, ol, li{
+  background-color: #303040;
+  color:#F3EDDD;
+  list-style-position: inside;
+  
+}
+
+
+.item-category{
+  float: left;
+  clear: both;
+  height: 40px;
+  width: 100%;
+  background-color: #D5DCB3;
+  color:#303040;
+}
+
+section{
+  float: left;
+  height: 250px;
+  width: 24%;
+  margin: 0px 15px 15px 0px;
+  background-color: #303040;
+}
+
+img {
+  object-fit: fill;
+}
